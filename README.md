@@ -12,7 +12,7 @@
 ## Структура репозитория (рекомендованная)
 
 ```
-repo/
+src/
 ├─ dags/
 │  └─ dwh_loader.py       # DAG для наполнения global_metrics
 │  └─ stg_loader.py       # DAG для наполнения stage
