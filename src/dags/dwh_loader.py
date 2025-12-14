@@ -5,12 +5,7 @@ import vertica_python
 
 # Конфигурация Vertica
 VERTICA_CONN = {
-    'host': 'vertica.tgcloudenv.ru',
-    'port': 5433,
-    'user': 'stv2025061321',
-    'password': '5BlrjsKfI9HiZBt',
-    'database': 'dwh',
-    'autocommit': True
+    
 }
 
 def load_global_metrics(ds=None, **kwargs):
