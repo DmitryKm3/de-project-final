@@ -6,12 +6,7 @@ import vertica_python
 
 # Конфиг Vertica
 VERTICA_CONN = {
-    'host': 'vertica.tgcloudenv.ru',
-    'port': 5433,
-    'user': 'stv2025061321',
-    'password': '5BlrjsKfI9HiZBt',
-    'database': 'dwh',
-    'autocommit': True
+    
 }
 
 # Таблицы в Vertica
